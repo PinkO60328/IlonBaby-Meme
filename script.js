@@ -19,6 +19,7 @@
     a.target = "_blank";
     a.rel = "noopener";
     a.style.display = "";
+    a.removeAttribute("aria-hidden");
   });
 
   const buy = valid ? "https://pump.fun/coin/" + CA : "";
